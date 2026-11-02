@@ -1,0 +1,44 @@
+{
+  "estado": "passed",
+  "workersConfigurados": 2,
+  "workersUtilizados": [
+    0,
+    1
+  ],
+  "paralelismoObservado": true,
+  "intervalos": [
+    {
+      "prueba": "identifica el título y el encabezado",
+      "worker": 0,
+      "inicio": 1793663723199,
+      "fin": 1793663723562,
+      "duracionMs": 363,
+      "estado": "passed"
+    },
+    {
+      "prueba": "incrementa un contador independiente desde cero",
+      "worker": 0,
+      "inicio": 1793663723808,
+      "fin": 1793663724020,
+      "duracionMs": 212,
+      "estado": "passed"
+    },
+    {
+      "prueba": "presenta un saludo con el nombre ingresado",
+      "worker": 1,
+      "inicio": 1793663723198,
+      "fin": 1793663723774,
+      "duracionMs": 576,
+      "estado": "passed"
+    }
+  ],
+  "coincidencias": [
+    {
+      "pruebas": [
+        "identifica el título y el encabezado",
+        "presenta un saludo con el nombre ingresado"
+      ],
+      "solapamientoMs": 363
+    }
+  ]
+}
